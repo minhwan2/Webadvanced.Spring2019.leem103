@@ -1,0 +1,153 @@
+
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:300,400,700';
+	
+	body{
+		font-size: 16px;
+		font-family: 'Work Sans', sans-serif;
+	}	
+
+/* home page */
+
+	#home{
+		width: 100%;
+		height: 200px;
+		background-color: #fff;
+		margin-bottom:20px;
+		position: relative;
+		text-align: center;
+
+	}
+
+	.fixed{
+		position: fixed;
+		color: red;
+	}
+
+	.big-text{
+		font-size: 3em;
+		top: 50px;
+		font-family: 'Work Sans';
+		position: relative;
+		color: #333;
+		font-weight:bold;
+
+
+	}
+
+
+/* team page */
+	.first{
+		width: 100%;
+		margin-left: 0vw;
+		position: relative;
+		text-align: center;
+	}
+
+/* services page */
+	.second{
+		width: 100%;
+		margin-left: 0vw;
+		position: relative;
+		text-align: center;
+	}
+
+/* testimonials page */
+	.third{
+		width: 100%;
+		margin-left: 0vw;
+		position: relative;
+		text-align: center;
+	}
+
+/* appointment page */
+	.fourth{
+		width: 100%;
+		margin-left: 0vw;
+		position: relative;
+		text-align: center;
+	}
+
+
+
+
+/* menu page */
+	.menubar{
+		background-color: #fff;
+		width: 100vw;
+		height: 50px;
+		margin-left: 0;
+		margin-top: -50px;
+		opacity: .9;
+		z-index: 10000;
+		
+	}
+
+	.fixed{
+		position: fixed;
+		top: 50px;
+		width: 100%;
+		opacity: 0.9;
+
+	}
+	.menubar nav{
+		align-content: center;
+		text-decoration: none;
+		text-align: center;
+		list-style-type: none;
+		padding-top: 11px;
+		width: 70vw;
+		height: 50px;
+		margin-left: 15vw;
+		margin-top: -50px;
+		z-index: 20; 
+
+	}
+
+	.menubar nav li{
+		position: relative;
+		display: inline-block;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		background-color:#fff;
+
+	}
+
+
+	.submenu{
+		text-decoration: none;
+		color: #222;
+		background-color: none;
+		font-size: 20px;
+		font-family: 'Work Sans', sans-serif;
+		padding: 13px;
+
+	}
+
+	.submenu:hover{
+		background-color: #66bbff;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	
+
+	.purple{
+		background-color: #66bbff;
+		color: white;
+		text-decoration: none;
+	}
+
+
+	.t1, .t2, .t3, .t4, .t5 {
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.appear{
+		opacity: 1;
+	}
+
+	.display{
+		display: all;
+		opacity: 1;
+		transition: 0.5s;
+	}
