@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screen Time Workshop option</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet"> 
+
+
+<link rel="stylesheet" href="../doc_files/css/mainstyle.css">
+<link rel="stylesheet" href="../doc_files/css/DSSinglePlayer.css">
+<link rel="stylesheet" href="../doc_files/css/scrollToStyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/jquery.scrollToStyle.js"></script>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
+<div class="custom-h-100">
+	<div class="custom-pos-center">
+		<div class="caption">Interact with Screen Time<br/> </div>
+		<div class="custom-title-0">This is the music list <br/> to encourage people do workout</div>
+		<div class="custom-scrolldown">
+			Check recommended music!
+			<div>&darr;</div>
+		</div>
+	</div>
+</div>
+
+<div data-pause="auto" class="sts-section custom-clearfix">
+	
+	<div class="custom-h-100 custom-w-50 custom-float-left custom-bg-1 custom-bg-pos-center" data-persent="0,100" data-style="background-size:auto [100,150]%">
+		<div class="custom-pos-center custom-color-white">
+			<div class="custom-title-1"><span class="custom-text-effect-1">Music Player</span></div>
+			<div><span class="custom-text-effect-1">
+				    <div class="DSSinglePlayer" id="player7">
+				    	
+        					</div>
+        						
+        					</div>
+        				</div>
+				    </div>
+	<div class="custom-w-50 custom-float-left " data-persent="0,100" data-style="transform:translateY([0,-100]%); margin-top:[0,100]vh">
+	
+		<div class="custom-h-100 custom-bg-color-magenta">
+			<div class="custom-pos-center custom-color-white">
+				<div class="custom-title-1"><span class="custom-text-effect-1">+2hr45m</span></div>
+				<div><span class="custom-text-effect-1">This does not measured as your screentime</span></div>
+			</div>
+		</div>
+		<div class="custom-h-100 custom-bg-color-blue">
+			<div class="custom-pos-center custom-color-white">
+				<div class="custom-title-1"><span class="custom-text-effect-1"><img src="../doc_files/pic/theraphy.gif" width="500"></span></div>
+				<div><span class="custom-text-effect-1"><br>You are in self-treatment process<br> If you want to other ways, please contact your personal coach :)</span></div>
+			</div>
+		</div>
+		
+	</div>
+
+</div>
+<script src="../doc_files/js/DSSinglePlayer.js"></script>
+<script type="text/javascript">
+$("#player7").MusicPlayer({
+            type: "soundcloud",
+            soundcloud_ID: "b8f06bbb8e4e9e201f9e6e46001c3acb",
+            soundcloud_URL: "https://soundcloud.com/amirtataloo/to-hameja-boodi"
+        });
+</script>
+
